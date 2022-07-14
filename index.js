@@ -7,7 +7,6 @@ function setup() {
     drawCar();
     movCar();
     movActor();
-  }
-  function drawActor(){
-    image(actor, xActor, yActor, 30, 30);
+    redrawCar();
+    carCowColDetec()
   }
