@@ -1,6 +1,6 @@
 let xCars = [500, 500, 500, 500, 500, 500];
 let yCars = [40, 96, 152, 208, 264, 320];
-let spdCars = [4.1, 3.2, 2.6, 2.9, 3.5, 2.6];
+let spdCars = [4.1, 2.5, 1.5, 1, 0.5, 2.5];
 
 function drawCar() {
     for (let i = 0; i < imgCars.length; i = i + 1) {

@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(500, 400);
+    soundTrack.loop();
   }
   function draw() {
     background(freewayImg);
@@ -8,5 +9,7 @@ function setup() {
     movCar();
     movActor();
     redrawCar();
-    carCowColDetec()
+    carCowColDetec();
+    points();
+    screenScore();
   }
